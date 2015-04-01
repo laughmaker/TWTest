@@ -27,27 +27,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
     //下载示例
-//    NSString *imagePath = @"http://pic4.nipic.com/20090922/3390849_082619386284_2.jpg";
-//    [[OURLRequest request] downloadFile:imagePath toPath:kDocuments completionHandler:^(NSString *aFilePath, NSError *error) {
-//        UIImage *image = [UIImage imageWithContentsOfFile:aFilePath];
-//        UIImageView *imgView  = [[UIImageView alloc] initWithFrame:self.view.bounds];
-//        imgView.backgroundColor = [UIColor brownColor];
-//        imgView.image = image;
-//        [self.view addSubview:imgView];
-//
-//    } progress:^(CGFloat per) {
-//        NSLog(@"per:%lf", per);
-//    }];
+    NSString *imagePath = @"http://pic4.nipic.com/20090922/3390849_082619386284_2.jpg";
+    [[OURLRequest request] downloadFile:imagePath toPath:kDocuments completionHandler:^(NSString *aFilePath, NSError *error) {
+        UIImage *image = [UIImage imageWithContentsOfFile:aFilePath];
+        UIImageView *imgView  = [[UIImageView alloc] initWithFrame:self.view.bounds];
+        imgView.backgroundColor = [UIColor brownColor];
+        imgView.image = image;
+        [self.view addSubview:imgView];
+
+    } progress:^(CGFloat per) {
+        NSLog(@"per:%lf", per);
+    }];
     
     // POST请求示例，返回传递的参数
     NSDictionary *params = @{@"name":@"hzdddddd", @"gender":@(1), @"nickname":@"wskrdfeai"};
-//    NSString *urlPath = @"http://api.3water3.com/user/say";
-//    [OURLRequest post:urlPath params:params completionHandler:^(id data, NSError *error) {
-//        NSLog(@"data:%@", data);
-//    }];
+    NSString *urlPath = @"http://api.3water3.com/user/say";
+    [OURLRequest post:urlPath params:params completionHandler:^(id data, NSError *error) {
+        NSLog(@"data:%@", data);
+    }];
     
     /// 上传示例
     NSString *uploadUrl = @"http://120.24.84.249/index.php";
