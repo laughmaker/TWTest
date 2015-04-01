@@ -14,8 +14,8 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self){
-//        self.backgroundColor = kClearColor;
-//        self.contentView.backgroundColor = kClearColor;
+        self.backgroundColor = kClearColor;
+        self.contentView.backgroundColor = kClearColor;
         self.seprator = [[UIView alloc] init];
         self.seprator.backgroundColor = [[UIColor grayColor] colorWithAlphaComponent:0.3];
         [self.contentView addSubview:self.seprator];
@@ -27,7 +27,7 @@
 {
     [super layoutSubviews];
     
-//    self.seprator.frame = CGRectMake(0, self.contentView.height - 0.5, self.contentView.width, 0.5);
+    self.seprator.frame = CGRectMake(0, self.contentView.height - 0.5, self.contentView.width, 0.5);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

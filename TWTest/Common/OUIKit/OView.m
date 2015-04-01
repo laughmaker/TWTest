@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-//        self.tintColor = kWhiteColor;
+        self.tintColor = kWhiteColor;
         self.tintAdjustmentMode = UIViewTintAdjustmentModeNormal;
     }
     return self;

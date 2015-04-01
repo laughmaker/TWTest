@@ -37,7 +37,7 @@
     self.layer.borderColor = [[UIColor grayColor] colorWithAlphaComponent:0.2].CGColor;
     self.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8];
     self.layer.borderWidth = 1;
-//    self.font = kN_MiddleFont;
+    self.font = kN_MiddleFont;
     self.clearButtonMode = UITextFieldViewModeWhileEditing;
     self.autocapitalizationType = UITextAutocapitalizationTypeNone;
     self.leftViewMode = UITextFieldViewModeAlways;
@@ -70,10 +70,10 @@
 	return CGRectInset(bounds, 5, 2.5);
 }
 
-//- (CGRect)leftViewRectForBounds:(CGRect)bounds
-//{
-//	return CGRectInset(CGRectMake(0, 0, 30, self.height), 3, 3);
-//}
+- (CGRect)leftViewRectForBounds:(CGRect)bounds
+{
+	return CGRectInset(CGRectMake(0, 0, 30, self.height), 3, 3);
+}
 
 
 @end

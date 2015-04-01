@@ -26,19 +26,9 @@
 {
     [super viewDidLoad];
 
+    self.view.backgroundColor = kWhiteColor;
 }
 
-- (void)hideNavigationBarBackground
-{
-    //去掉导航栏的原生背景
-    for (UIView *view in self.navigationController.navigationBar.subviews)
-    {
-        if ([view isKindOfClass:NSClassFromString(@"_UINavigationBarBackground")])
-        {
-            view.hidden = YES;
-        }
-    }
-}
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -49,13 +39,6 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-}
-
-- (void)back
-{
-    [self.view endEditing:YES];
-    [self.navigationController popViewControllerAnimated:YES];
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

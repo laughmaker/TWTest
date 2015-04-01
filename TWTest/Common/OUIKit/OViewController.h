@@ -14,7 +14,5 @@
  */
 @interface OViewController : UIViewController
 
-/// 隐藏导航栏背景
-- (void)hideNavigationBarBackground;
 
 @end

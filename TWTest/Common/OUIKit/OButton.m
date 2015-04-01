@@ -15,9 +15,9 @@
     self = [super initWithFrame:frame];
     if (self)
     {
-//        self.backgroundColor = kClearColor;
+        self.backgroundColor = kClearColor;
 //        self.showsTouchWhenHighlighted = YES;
-//        self.titleLabel.font = kB_MiddleFont;
+        self.titleLabel.font = kB_MiddleFont;
     }
     return self;
 }

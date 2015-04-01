@@ -6,17 +6,28 @@
 //  Copyright (c) 2015年 TW. All rights reserved.
 //
 
-#import "SettingVC.h"
+#import "SettingsVC.h"
 #import "OURLRequest.h"
 
-@interface SettingVC ()
+@interface SettingsVC ()
 
 @end
 
-@implementation SettingVC
+@implementation SettingsVC
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.title = @"settings";
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     
     //下载示例
 //    NSString *imagePath = @"http://pic4.nipic.com/20090922/3390849_082619386284_2.jpg";

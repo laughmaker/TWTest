@@ -15,9 +15,9 @@
     self = [super initWithFrame:frame];
     if (self)
     {
-//        self.backgroundColor = [UIColor clearColor];
-//        self.font = kN_MiddleFont;
-//        self.textColor = kBlackColor;
+        self.backgroundColor = [UIColor clearColor];
+        self.font = kN_MiddleFont;
+        self.textColor = kBlackColor;
     }
     return self;
 }

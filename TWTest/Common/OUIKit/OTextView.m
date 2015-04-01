@@ -25,13 +25,13 @@
         self.layer.borderColor = [[UIColor grayColor] colorWithAlphaComponent:0.2].CGColor;
         self.layer.borderWidth = 1;
         self.delegate = self;
-//        self.textColor = kBlackColor;
+        self.textColor = kBlackColor;
         self.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8];
-//        [self setFont:kN_MiddleFont];
+        [self setFont:kN_MiddleFont];
         self.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
         self.linkTextAttributes = @{NSForegroundColorAttributeName:[UIColor blueColor], NSUnderlineColorAttributeName: [UIColor redColor]};
 
-//        self.placeholderLbl = [[UILabel alloc] initWithFrame:CGRectMake(5, 6, self.width, self.height)];
+        self.placeholderLbl = [[UILabel alloc] initWithFrame:CGRectMake(5, 6, self.width, self.height)];
         self.placeholderLbl.numberOfLines = 0;
         self.placeholderLbl.font = self.font;
         self.placeholderLbl.enabled = NO;

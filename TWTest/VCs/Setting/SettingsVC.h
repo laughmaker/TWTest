@@ -8,6 +8,6 @@
 
 #import "OViewController.h"
 
-@interface SettingVC : OViewController
+@interface SettingsVC : OViewController
 
 @end

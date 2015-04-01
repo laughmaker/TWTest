@@ -15,8 +15,8 @@
     self.btn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.btn.bounds = CGRectMake(0, 0, size.width, size.height);
     [self.btn setImage:image forState:UIControlStateNormal];
-//    [self.btn setTitleColor:kBlackColor forState:UIControlStateNormal];
-//    self.btn.titleLabel.font = kB_MiddleFont;
+    [self.btn setTitleColor:kBlackColor forState:UIControlStateNormal];
+    self.btn.titleLabel.font = kB_MiddleFont;
     self.btn.showsTouchWhenHighlighted = YES;
     
     self = [super initWithCustomView:self.btn];
@@ -29,11 +29,11 @@
     self.btn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.btn.bounds = CGRectMake(0, 0, size.width, size.height);
     [self.btn setTitle:title forState:UIControlStateNormal];
-//    [self.btn setTitleColor:kBlackColor forState:UIControlStateNormal];
+    [self.btn setTitleColor:kBlackColor forState:UIControlStateNormal];
     self.btn.titleLabel.font = [UIFont systemFontOfSize:15];
     self.btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     self.btn.showsTouchWhenHighlighted = YES;
-//    self.btn.backgroundColor = kClearColor;
+    self.btn.backgroundColor = kClearColor;
     
     self = [super initWithCustomView:self.btn];
     

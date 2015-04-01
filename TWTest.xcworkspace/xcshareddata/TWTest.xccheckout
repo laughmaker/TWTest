@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4A3B2CB-9486-48E5-BCF6-F5623E1ABB29</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TWTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EF0CC12905CEADCC6A37AE4FD823682D940782E</key>
+		<string>https://github.com/laughmaker/TWTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TWTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EF0CC12905CEADCC6A37AE4FD823682D940782E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/laughmaker/TWTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EF0CC12905CEADCC6A37AE4FD823682D940782E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EF0CC12905CEADCC6A37AE4FD823682D940782E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TWTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
