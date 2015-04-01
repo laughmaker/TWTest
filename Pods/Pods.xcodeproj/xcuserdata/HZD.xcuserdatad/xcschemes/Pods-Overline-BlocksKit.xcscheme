@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "236F2B5E8D4245DCB37F0976"
+               BlueprintIdentifier = "C7128BD3B308425797CFC592"
                BuildableName = "libPods-Overline-BlocksKit.a"
                BlueprintName = "Pods-Overline-BlocksKit"
                ReferencedContainer = "container:Pods.xcodeproj">
